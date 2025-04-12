@@ -1,0 +1,101 @@
+body {
+  background-image: url(../images/cover_page.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 68vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.confCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  margin: 0;
+}
+
+.confIns {
+  color: #fac586;
+  text-align: center;
+}
+
+.headerContainer {
+  border: solid 1px;
+  color: #fac586;
+  display: flex;
+  margin: 30px 50px 0 50px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+.nomSite {
+  color: #fac586;
+  font-size: small;
+  margin-left: 20px;
+}
+
+.navigation,
+.connexion {
+  display: flex;
+  gap: 20px;
+}
+
+.connexion {
+  margin-right: 30px;
+}
+
+.mainContainer {
+  margin: 150px 50px 0 50px;
+  /* border: solid 1px; */
+  display: flex;
+  gap: 300px;
+}
+
+.mainContainer p {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 1px;
+  color: white;
+}
+
+.formContainer {
+  /* border: solid 1px; */
+  display: flex;
+  align-items: center;
+}
+
+.inputForm {
+  margin: 10px 0 10px 0;
+}
+
+.inputForm input {
+  width: 300px;
+  height: 30px;
+}
+
+.footerContainer {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 27%;
+}
+
+.mentionsLegales {
+  display: flex;
+  gap: 25px;
+}
+
+footer {
+  margin-top: 50px;
+}
