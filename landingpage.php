@@ -24,10 +24,11 @@ require_once "header.php";
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $email = $_POST['email'];
+        $username = $_POST['username'];
         $password = $_POST['password'];
 
         try {
-            $utilisateur = new Utilisateur($email, $password);
+            $utilisateur = new Utilisateur($email, $username, $password);
             $database = new Database();
             $database->insertUser($utilisateur);
 
@@ -45,6 +46,9 @@ require_once "header.php";
             <form action="landingpage.php" method="POST">
                 <div class="inputForm">
                     <input type="email" name="email" placeholder="Email..." required>
+                </div>
+                <div class="inputForm">
+                    <input type="text" name="username" placeholder="Pseudo..." required>
                 </div>
                 <div class="inputForm">
                     <input type="password" name="password" placeholder="Mot de passe..." required>

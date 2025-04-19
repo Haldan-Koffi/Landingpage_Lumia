@@ -13,7 +13,7 @@
             <a href="#">Prix</a>
         </div>
         <div class="connexion">
-            <a href="#">Se connecter</a>
+            <a href="connexion.php">Se connecter</a>
         </div>
     </div>
 </header>
